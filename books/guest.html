@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Guest List</title>
+    <style>
+ body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0%;
+            font-size: 2em;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #575757;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto auto auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+        grid-template-columns: minmax(200px,400px) minmax(auto,1000px); 
+        gap: 10%; 
+        
+        }
+        /*.container {
+      height: 100vh;
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 1fr 1fr 1.5fr;
+      grid-template-rows: 1fr 1fr;
+    }*/
+        h2 {
+            color: #4a4a4a;
+        }
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+        .contain,span{
+            color: maroon;
+            list-style: none;
+        }
+        
+        @media (max-width: 768px) {
+   
+
+   .container {
+       display: block;
+   }
+   
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Guest List</h1>
+    </header>
+    <nav class="nav">
+        <a href="../new templates/rough.html">Home</a>
+            <a href="../new templates/aboutrough.html">About</a>
+            <a href="../new templates/contactrough.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="one">
+            <h2>Plot</h2>
+            <p class="girl">Off the windswept Irish coast, guests gather for the <span>wedding of the year.</span> </p>
+            <p>The setting is spectacular, the atmosphere alive. But as the guest toast the golden couple, <span>dark secrets begin to spill</span>. And the wedding cake has barely been cut when someone is found dead.</p>
+            <p>As the storm unleashes its fury on the island, <span>everyone is trapped - and the killer circulates amongst the guests.</span></p>
+             <div class="three"><h2>Overall</h2>
+            <ul>
+                <li>Overall Enjoyment: 4/5</li>
+                <li>Readability: 4/5</li>
+                <li>Character Development: 4.5/5</li>
+                <li>Plot Intricacy: 4/5</li>
+                <li>Suspense and Mystery: 4/5</li>
+            </ul></div>
+        </div>
+       
+        <div class="two">
+            <h2>My POV</h2>
+            <p>I would like to give a tagline to this book like</p>
+            <ul>
+                <li class="contain">IT STARTS WITH A PARTY.</li>
+                <li class="contain">IT'LL END IN MURDER.</li>
+            </ul>
+            <p>This is a <span>'whodunnit'</span> kind of read where all the characters are suspects. For me, this is the most interesting part, as each of them has a strong motive and plenty to hide.</p>
+            <p>The key is to guess who actually did it and why. The best thing about these books is that they make us feel like detectives, piecing together clues.</p>
+            <ul>
+                <li class="contain" >No one can enter.</li>
+                <li class="contain">No one can leave.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

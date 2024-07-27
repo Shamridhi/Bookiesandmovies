@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login in</title>
+    <style>
+         body{
+            max-width: 800px;
+            margin: 50px auto ;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        
+         }
+         header{
+            display: flex;
+            justify-content: center;
+         }
+         .item{
+            display: grid;
+         }
+         
+        #test1{
+            margin: auto;
+            margin-top: 20px;         }
+         #test{
+            margin: auto;
+            margin-top: 30px;
+         }
+         .button{
+            margin: auto;
+         }
+         #acc,#psw
+         {
+            display: flex; 
+            justify-content: center; 
+         }
+         a{
+            color: black;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Login</h2>
+    </header>
+    <div class="item">
+    <input type="text" id="test1" placeholder="username">
+    <input type="text" id="test" placeholder="password">
+   <a href="./reset.html" id="psw"><p>Forgot password?</p></a>
+   <a href="./newacc.html" id="acc"><p>Create new account<p></a>
+    <div class="button"> 
+        <input type="submit" id="submit" value="Submit"/>  
+    </div>
+  
+    </div>
+    <header>
+      
+      <script src="./index.js"></script>
+     
+</body>
+</html>
